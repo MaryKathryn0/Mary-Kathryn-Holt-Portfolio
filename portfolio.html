@@ -1,70 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mary Kathryn Holt</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
-</head>
-<body class= "bg-secondary">
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: lavender">
-        <a class="navbar-brand" href="#">Mary Kathryn Holt</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-            <a class="nav-link active" href="#">Portfolio</a>
-            <a class="nav-link" href="index.html">About Me</a>
-          </div>
-        </div>
-      </nav>
-      <div class="container ">
-        <div class="row">
-          <div class="col-md-12 bg-white">
-            <div class="page-header">
-              <h1>Portfolio</h1>
-            </div>
-            <div class="row">
-              <div class="card" style="width: 18rem;">
-                <img src="./imgs/waddams-arms-crossed.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Calculator</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="https://github.com/MaryKathryn0/JQueryCalculator" class="btn btn-primary">View</a>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem;">
-                <img src="./imgs/waddams-severed-head.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Horiseon Website Changes</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="https://github.com/MaryKathryn0/Horiseon-Website-Changes" class="btn btn-primary">View</a>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem;">
-                <img src="./imgs/waddams.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">BreakAway: Find Something To Do</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="https://github.com/MaryKathryn0/BreakAway" class="btn btn-primary">View</a>
-                </div>
-              </div>
-            </div>
-          
-              
-          </div>
-          
-        </div>
-      </div>
-    
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>   
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mary Kathryn Holt</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: lavender">
+    <a class="navbar-brand" href="#">Mary Kathryn Holt</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+        <a class="nav-link active" href="#">Portfolio</a>
+        <a class="nav-link" href="index.html">About Me</a>
+      </div>
+    </div>
+  </nav>
+  <div class="container container-fluid">
+    <div class="row">
+      <div class="col-md-12 bg-white">
+        <div class="page-header">
+          <h1>Portfolio</h1>
+        </div>
+        <container class="portfoliobox">
+          <div class="row">
+            <div class="card" style="width: 18rem;">
+              <img src="./imgs/waddams-severed-head 2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Calculator</h5>
+                <p class="card-text"></p>
+                <a href="https://github.com/MaryKathryn0/JQueryCalculator" class="btn btn-primary">View</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="./imgs/wednesday-addams-pout.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Horiseon Website Changes</h5>
+                <p class="card-text"></p>
+                <a href="https://github.com/MaryKathryn0/Horiseon-Website-Changes" class="btn btn-primary">View</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="./imgs/wednesday-addams-arms-crossed.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">BreakAway: Find Something To Do</h5>
+                <p class="card-text"></p>
+                <a href="https://github.com/MaryKathryn0/BreakAway" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+        </container>
+
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
