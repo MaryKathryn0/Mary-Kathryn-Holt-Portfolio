@@ -1,25 +1,10 @@
-body {
-  background-color: gainsboro;
+
+
+.card-deck {
+  margin: auto;
 }
 
 
-
-.container {
-    padding-bottom: 20px;
-    margin-top: 30px;
-    width: 1000px;
-  }
-
-#portfoliobox{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-#portfolio {
-  align-content: center;
-}
 
 .headline {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -30,6 +15,61 @@ body {
 .aboutMeText {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
+
+#contact {
+  width: auto;
+}
+
+.card-title {
+  margin: auto;
+}
+
+.card-body {
+  margin: auto;
+}
   
 
- 
+.text-center {
+  text-align: center!important;
+}
+
+body {
+	background: #f4f4f4;
+}
+
+a {
+  color: black;
+}
+.fa-cat {
+  color: black;
+}
+.fa-linkedin-in {
+  color: black;
+}
+.fa-twitter {
+  color: black;
+}
+.fa-github {
+  color: black;
+}
+/* .container {
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+.icons-container {
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+  align-items: center;
+}
+
+
+.icon-container {
+		box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.6),
+			12px 12px 12px 0 rgba(0, 0, 0, 0.03);
+		transform: scale(1.05);
+	} */
+
+
