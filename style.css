@@ -1,10 +1,27 @@
 
-
-.card-deck {
-  margin: auto;
+body {
+	background: #f4f4f4;
 }
 
-
+a {
+  color: black;
+}
+.fa-cat {
+  color: black;
+}
+.fa-linkedin-in {
+  color: black;
+}
+.fa-twitter {
+  color: black;
+}
+.fa-github {
+  color: black;
+}
+.card-deck {
+  margin: auto;
+  padding-top: 50px;
+}
 
 .headline {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -33,25 +50,7 @@
   text-align: center!important;
 }
 
-body {
-	background: #f4f4f4;
-}
 
-a {
-  color: black;
-}
-.fa-cat {
-  color: black;
-}
-.fa-linkedin-in {
-  color: black;
-}
-.fa-twitter {
-  color: black;
-}
-.fa-github {
-  color: black;
-}
 /* .container {
 	max-width: 980px;
 	margin: 0 auto;
