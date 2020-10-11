@@ -25,7 +25,10 @@ body {
   font-size: 20px;
   font-style: bold;
 }
-
+.aboutMeBox {
+  margin:15px;
+  padding:15px;
+}
 .aboutMeText {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
