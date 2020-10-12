@@ -3,11 +3,14 @@ body {
 	background: #f4f4f4;
 }
 
+.icon-container a i {
+  color:black !important; 
+}
 .fa-cat {
   color: black;
 }
 .fa-linkedin-in {
-  color: black;
+  color: black !important;
 }
 .fa-twitter {
   color: black;
