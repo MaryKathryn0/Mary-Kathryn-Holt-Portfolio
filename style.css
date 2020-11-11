@@ -1,7 +1,12 @@
 
 body {
-	background: #f4f4f4;
+  background-image: url(./imgs/lake-bg-color-1.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  background-size: cover;
 }
+
 
 .icon-container a i {
   color:black !important; 
@@ -28,12 +33,18 @@ body {
   font-size: 20px;
   font-style: bold;
 }
+
+.headshot {
+  max-width: 400px; 
+  height: auto; 
+}
+
 .aboutMeBox {
   margin:15px;
   padding:15px;
 }
 .aboutMeText {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 #contact {
