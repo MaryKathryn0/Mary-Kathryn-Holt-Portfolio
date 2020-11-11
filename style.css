@@ -1,25 +1,8 @@
 
 body {
-	background-color: rgb(78, 77, 77);
+	background: #f4f4f4;
 }
 
-.bgimg {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: img src="./imgs/resume-mono-closed.jpg";
-  min-height: 100%;
-}
-
-#greeting{
-  margin-top: 30px;
-  padding-top: 50px;
-}
-.border {
-  border: 10px solid black;
-  margin: 20px;
-  padding: 30px;
-}
 .icon-container a i {
   color:black !important; 
 }
@@ -40,13 +23,7 @@ body {
   padding-top: 50px;
 }
 
-.navbar {
-  background-color:lavender;
-}
-
-
-
-/* .headline {
+.headline {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 20px;
   font-style: bold;
@@ -57,7 +34,7 @@ body {
 }
 .aboutMeText {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-} */
+}
 
 #contact {
   width: auto;
