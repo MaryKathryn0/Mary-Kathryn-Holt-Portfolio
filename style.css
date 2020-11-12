@@ -69,6 +69,11 @@ body {
 }
 
 
+.form-control {
+  background-color: #abbcbd;
+}
+
+
 /* .container {
 	max-width: 980px;
 	margin: 0 auto;
