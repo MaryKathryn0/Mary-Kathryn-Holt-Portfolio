@@ -1,7 +1,7 @@
 # Assignment2Portfolio
 Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 ## **Live Link**
-https://marykathryn0.github.io/Assignment2Portfolio/
+https://marykathryn0.github.io/Mary-Kathryn-Holt-Portfolio/
 ## **Contributors**
 https://github.com/MaryKathryn0
 ## **Description**
