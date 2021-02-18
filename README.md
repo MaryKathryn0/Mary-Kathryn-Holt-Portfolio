@@ -16,5 +16,3 @@ www.gitbootstrap.com
 * #### **Name:** Mary Kathryn Holt (https://github.com/MaryKathryn0)
 * #### **Email:** msmarykathrynholt@gmail.com
 * #### **LinkedIn:** https://www.linkedin.com/in/marykathrynholt/
-## **License**
-I don't know? 
