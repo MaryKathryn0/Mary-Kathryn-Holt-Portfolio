@@ -7,7 +7,15 @@ body {
   background-size: cover;
 }
 
+.headshot {
+  border-radius: 7px;
+  border-style: solid;
+  border-color: #ddd8ce;
+}
 
+.btn {
+  background-color: #ddd8ce;
+}
 .icon-container a i {
   color:black !important; 
 }
@@ -34,7 +42,16 @@ body {
   font-style: bold;
 }
 
-
+.smallAbout {
+  background-color: #ddd8ce;
+  color: rgb(41, 39, 39);
+  text-align: center;
+  font-size: 15px;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: #ddd8ce;
+  padding-top: 10px;
+}
 
 .aboutMeBox {
   margin:15px;
